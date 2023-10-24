@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,82 @@
     <title>MyBlog</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="https://images.pexels.com/photos/1059078/pexels-photo-1059078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Miroir d'eau">
+                <h3 class="title"><a href="#">Algum Titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, dicta placeat nemo,
+                    nobis quisquam exercitationem ratione, possimus officiis magnam adipisci commodi blanditiis quas?
+                    Tenetur reiciendis totam accusantium at consequatur atque?</p>
+            </article>
+            <article class="post">
+                <img src="https://images.pexels.com/photos/373409/pexels-photo-373409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Blue Sea">
+                <h3 class="title"><a href="#">Algum Titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, dicta placeat nemo,
+                    nobis quisquam exercitationem ratione, possimus officiis magnam adipisci commodi blanditiis quas?
+                    Tenetur reiciendis totam accusantium at consequatur atque?</p>
+            </article>
+            <article class="post">
+                <img src="https://images.pexels.com/photos/11696782/pexels-photo-11696782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Al-Aqsa Mosque">
+                <h3 class="title"><a href="#">Algum Titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, dicta placeat nemo,
+                    nobis quisquam exercitationem ratione, possimus officiis magnam adipisci commodi blanditiis quas?
+                    Tenetur reiciendis totam accusantium at consequatur atque?</p>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Searching on blog">
+                    <input type="submit" value="Search">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categories</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Landscape</a></li>
+                        <li><a href="#">Adventures</a></li>
+                        <li><a href="#">Forest</a></li>
+                        <li><a href="#">Long Trips</a></li>
+                        </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Trips</a>
+                    <a href="#">Boats</a>
+                    <a href="#">Zipline</a>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <h2>Blog</h2>
+        <p>Os melhores registros de aventuras</p>
+        <p>2023 &copy; Gabriel Ledo</p>
+    </footer>
 </body>
+
 </html>
